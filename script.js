@@ -1,0 +1,21 @@
+var tl=gsap.timeline();
+tl.from("h3",{
+    y:-50,
+    duration:1,
+    opacity:0,
+    stagger:.2,
+    delay:.4
+})
+tl.from("h1",{
+    x:-500,
+    duration:1,
+    opacity:0,
+    stagger:.3
+})
+tl.from("img",{
+    x:100,
+    opacity:0,
+    rotate:45,
+    duratio:.5,
+    stagger:.3
+})
